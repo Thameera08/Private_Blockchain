@@ -1,0 +1,13 @@
+Node 1 
+ key:   0xF6A39A468f285Cd225Dc11488323bcff2C6104FB
+ password: 1234
+
+Node 2 
+ key:   0x7d3DD6D09915CA7768bd49BDe5B7fD428196C64b
+ password: 1234
+
+ enode://d559d3a8fa769614a4cdfd5bbaa50e6561d3cc873f2bf2bd73f9dd197d3f29f903be9ee129d4d5b8479ab1fb87b01342acdf754673247ffca83c4f46b28075c9@127.0.0.1:00301
+
+
+ geth --networkid 14333 --datadir "./data" --bootnodes enode://d559d3a8fa769614a4cdfd5bbaa50e6561d3cc873f2bf2bd73f9dd197d3f29f903be9ee129d4d5b8479ab1fb87b01342acdf754673247ffca83c4f46b28075c9@127.0.0.1:00301 --port 30303 --ipcdisable --syncmode full --rpc --allow-insecure-unlock --rpccorsdomain "*" --rpcport 8545 --unlock 0xF6A39A468f285Cd225Dc11488323bcff2C6104FB --password password.txt --mine console
+  geth --networkid 14333 --datadir "./data" --bootnodes enode://d559d3a8fa769614a4cdfd5bbaa50e6561d3cc873f2bf2bd73f9dd197d3f29f903be9ee129d4d5b8479ab1fb87b01342acdf754673247ffca83c4f46b28075c9@127.0.0.1:00301 --port 30304 --ipcdisable --syncmode full --rpc --allow-insecure-unlock --rpccorsdomain "*" --rpcport 8546 --unlock 0x7d3DD6D09915CA7768bd49BDe5B7fD428196C64b --password password.txt console 

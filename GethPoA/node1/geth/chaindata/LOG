@@ -1,0 +1,39 @@
+=============== Jul 30, 2023 (+0530) ===============
+10:07:41.789047 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:07:41.791046 db@open opening
+10:07:41.794062 version@stat F·[] S·0B[] Sc·[]
+10:07:41.795047 db@janitor F·2 G·0
+10:07:41.795047 db@open done T·4.001ms
+=============== Jul 30, 2023 (+0530) ===============
+14:04:50.104851 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:04:50.105843 version@stat F·[] S·0B[] Sc·[]
+14:04:50.105843 db@open opening
+14:04:50.105843 journal@recovery F·1
+14:04:50.107854 journal@recovery recovering @1
+14:04:50.139147 memdb@flush created L0@2 N·21261 S·1MiB "\x00\x00\xae..\x82\x88\x11,v9389":"\xff\xfc\x94..\xa5\x05\xa1,v9518"
+14:04:50.142150 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+14:04:50.148164 db@janitor F·3 G·0
+14:04:50.148164 db@open done T·42.3205ms
+=============== Jul 30, 2023 (+0530) ===============
+19:28:06.094164 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:28:06.095173 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+19:28:06.095173 db@open opening
+19:28:06.096174 journal@recovery F·1
+19:28:06.097174 journal@recovery recovering @3
+19:28:06.099169 memdb@flush created L0@5 N·1 S·507B "eth..ˏ\xa3,v21263":"eth..ˏ\xa3,v21263"
+19:28:06.102173 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+19:28:06.105804 db@janitor F·4 G·0
+19:28:06.105804 db@open done T·10.6307ms
+19:28:06.175187 db@close closing
+19:28:06.176177 reference loop already exist
+19:28:06.176177 db@close done T·990.8µs
+=============== Jul 30, 2023 (+0530) ===============
+19:32:23.193129 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:32:23.194135 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+19:32:23.194135 db@open opening
+19:32:23.194135 journal@recovery F·1
+19:32:23.195700 journal@recovery recovering @6
+19:32:23.198691 memdb@flush created L0@8 N·1 S·507B "eth..ˏ\xa3,v21265":"eth..ˏ\xa3,v21265"
+19:32:23.200697 version@stat F·[3] S·1MiB[1MiB] Sc·[0.75]
+19:32:23.204388 db@janitor F·5 G·0
+19:32:23.204388 db@open done T·10.2528ms
